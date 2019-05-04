@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)" preserve-order="false">
+    <classes>
+      <class name="TestCases.RuleAssociationTest">
+        <methods>
+          <include name="approveMerchant"/>
+          <include name="ruleCreate"/>
+          <include name="terminalCreationt"/>
+          <include name="createStore"/>
+          <include name="setUp"/>
+          <include name="createMerchant"/>
+          <include name="tidRegistration"/>
+          <include name="approveStore"/>
+          <include name="association"/>
+          <include name="tearDown"/>
+          <include name="ruleApproved"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
